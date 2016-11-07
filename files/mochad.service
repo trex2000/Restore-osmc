@@ -1,0 +1,13 @@
+[[Unit]
+Description=Mochad X10 Daemon
+Requires=systemd-udevd.service
+After=systemd-udevd.service
+
+[Service]
+Type=forking
+GuessMainPID=yes
+ExecStart=/usr/local/bin/mochad
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

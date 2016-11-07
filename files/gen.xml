@@ -1,0 +1,13 @@
+<keymap>
+	<global>
+		<keyboard>
+			<key id="61654">contextmenu</key>
+			<key id="389266">info</key>
+			<key id="0x4F009">PreviousMenu</key>
+			<key id="0xF0B4">Stop</key>
+		</keyboard>
+		<mouse>
+				<rightclick>back</rightclick>
+		</mouse>
+	</global>
+</keymap>
